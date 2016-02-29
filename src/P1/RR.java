@@ -7,8 +7,8 @@ public class RR{
 
 	public static int run(List<Job> list){
         Queue<Job> readyQueue = new LinkedList<Job>();
-        time = 0;
-        jobsDone = false;
+        int time = 0;
+        Boolean jobsDone = false;
         int avgWaitTime = 0;
 
         while(!jobsDone){
