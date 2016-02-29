@@ -3,7 +3,7 @@ package P1;
 import java.util.*;
 
 
-public class FCFS {
+public class FCFS { 
 	// Queue<Job> q = new LinkedList<Job>();
  //    Final String fileName; 
  //    List<Job> list;
