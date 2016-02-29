@@ -48,7 +48,7 @@ public class RR{
 		}
 
 		avgWaitTime = avgWaitTime/jobs.size();
-		
+
 		return avgWaitTime;
 
 	}
