@@ -1,3 +1,4 @@
+package P1;
 
 public class Job {
 	int waitTime;
