@@ -2,7 +2,6 @@ package P1;
 
 import java.util.*;
 
-
 public class RR{
 
 	public static int run(List<Job> jobs){
@@ -41,7 +40,7 @@ public class RR{
 
 	        jobsDone = true;
 			for(int i = 0; i < jobs.size(); i++){ //check if all jobs have finished
-				if(jobs.get(i).length != 0){
+				if(jobs.get(i).progress != jobs.get(i).length){
 					jobsDone = false;
 				}
 			}
@@ -53,19 +52,5 @@ public class RR{
 		return avgWaitTime;
 
 	}
-
-
-	public static void main(String [] args){
-
-		Job jobA = new Job("A", 10, 0);
-		Job jobB = new Job("B", 8, 4);
-		Job jobC = new Job("C", 3, 7);
-
-		List<Job> jobs = new List<Job>(jobA, jobB, jobC);
-
-		System.out.println(run(jobs));
-
-	}
-
 
 }
