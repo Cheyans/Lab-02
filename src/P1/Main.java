@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
-    public static void main(String args[]) throws Exception {
+    public static void main(String[] args) throws Exception {
         List<Path> paths = new ArrayList<>();
         Files.walk(Paths.get(System.getProperties().getClass().getResource("/P1/Traces").toURI())).forEach(filePath -> {
             if(Files.isRegularFile(filePath)) {
@@ -46,9 +46,9 @@ public class Main {
                     }
                 });
                 if(scheduler.equals("FCFS")) {
-                    System.out.println(String.format("%s %s: %.2f", scheduler ,path.getFileName().toString().split("\\.")[0], FCFS.run(jobs)));
+                    System.out.println(String.format("%s %s: %.0f", scheduler ,path.getFileName().toString().split("\\.")[0], FCFS.run(jobs)));
                 } else {
-                    System.out.println(String.format("%s %s %.2f", scheduler ,path.getFileName().toString().split("\\.")[0], RR.run(jobs)));
+                    System.out.println(String.format("%s %s: %.0f", scheduler ,path.getFileName().toString().split("\\.")[0], RR.run(jobs)));
                 }
             } catch (IOException e) {
                 e.printStackTrace();
