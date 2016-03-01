@@ -6,8 +6,7 @@ public class Job {
     int length;
     int progress;
     boolean inQueue;
-    public Job (int length, int arrivalTime){
-        waitTime = 0;
+    public Job (int arrivalTime, int length){
         this.arrivalTime = arrivalTime;
         this.length = length;
     }

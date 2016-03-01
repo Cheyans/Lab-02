@@ -1,56 +1,43 @@
 package P1;
 
-import java.util.*;
 
-public class RR{
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
-	public static int run(List<Job> jobs){
-        Queue<Job> readyQueue = new LinkedList<Job>();
-        int time = 0;
-        Boolean jobsDone = false;
-        int avgWaitTime = 0;
+public class RR {
+	public static double run(List<Job> jobs) {
+        int jobCount = jobs.size();
+		Queue<Job> readyQueue = new LinkedList<>();
+		int time = 0;
+		double avgWaitTime = 0;
 
-        while(!jobsDone){
+		while (!jobs.isEmpty()) {
+            for (Job job : jobs) { //check if job has arrived
+                if (job.arrivalTime == time) {
+                    readyQueue.add(job);
+                    job.inQueue = true;
+                }
+            }
+            if (!readyQueue.isEmpty()) {
+                Job currJob = readyQueue.remove();
+                currJob.inQueue = false;
 
-        	for(int i = 0; i < jobs.size(); i++){ //check if job has arrived
-				if(jobs.get(i).arrivalTime == time){
-					readyQueue.add(jobs.get(i));
-					jobs.get(i).inQueue = true;
-				}
-			}
+                //increase waitTime by 1 if job is in queue but not executing
+                jobs.stream().filter(job -> job.inQueue).forEach(job -> job.waitTime++);
 
-			Job currJob = readyQueue.remove();
-			currJob.inQueue =false;
+                currJob.progress++;
 
-			for (int i = 0; i < jobs.size(); i++) { //increase waitTime by 1 if job is in queue but not executing
-				if(jobs.get(i).inQueue){
-					jobs.get(i).waitTime++;
-				}
-			}
-
-			currJob.progress++;
-
-			if(currJob.length == currJob.progress){
-				avgWaitTime += currJob.waitTime;
-			}
-			else{
-				readyQueue.add(currJob);
-				currJob.inQueue = true;
-			}
-
-	        jobsDone = true;
-			for(int i = 0; i < jobs.size(); i++){ //check if all jobs have finished
-				if(jobs.get(i).progress != jobs.get(i).length){
-					jobsDone = false;
-				}
-			}
+                if (currJob.length == currJob.progress) {
+                    avgWaitTime += currJob.waitTime;
+                    jobs.remove(currJob);
+                } else {
+                    readyQueue.add(currJob);
+                    currJob.inQueue = true;
+                }
+            }
 			time++;
 		}
-
-		avgWaitTime = avgWaitTime/jobs.size();
-
-		return avgWaitTime;
-
+		return avgWaitTime / jobCount;
 	}
-
 }
