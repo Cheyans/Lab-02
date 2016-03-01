@@ -6,13 +6,13 @@ import java.util.List;
 import java.util.Queue;
 
 public class RR {
-	public static double run(List<Job> jobs) {
+    public static double run(List<Job> jobs) {
         int jobCount = jobs.size();
-		Queue<Job> readyQueue = new LinkedList<>();
-		int time = 0;
-		double avgWaitTime = 0;
+        Queue<Job> readyQueue = new LinkedList<>();
+        int time = 0;
+        double avgWaitTime = 0;
 
-		while (!jobs.isEmpty()) {
+        while (!jobs.isEmpty()) {
             for (Job job : jobs) { //check if job has arrived
                 if (job.arrivalTime == time) {
                     readyQueue.add(job);
@@ -36,8 +36,8 @@ public class RR {
                     currJob.inQueue = true;
                 }
             }
-			time++;
-		}
-		return avgWaitTime / jobCount;
-	}
+            time++;
+        }
+        return avgWaitTime / jobCount;
+    }
 }
