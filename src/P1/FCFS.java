@@ -3,10 +3,12 @@ package P1;
 import java.util.List;
 import java.util.Queue;
 
-public class FCFS {
-    public static double run(List<Job> list){
-        int jobCount = list.size();
-        Queue<Job> q = (Queue<Job>) list;
+public class FCFS implements Scheduler{
+
+    @Override
+    public double run(List<Job> jobs){
+        int jobCount = jobs.size();
+        Queue<Job> q = (Queue<Job>) jobs;
         Job prev = null;
         double total = 0;
 
@@ -20,5 +22,10 @@ public class FCFS {
         }
 
         return Math.ceil(total/jobCount);
+    }
+
+    @Override
+    public String getName() {
+        return "FCFS";
     }
 }

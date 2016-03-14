@@ -4,19 +4,24 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class RR {
-    public static double run(List<Job> jobs) {
+public class RR implements Scheduler{
+
+    @Override
+    public double run(List<Job> jobs) {
         int jobCount = jobs.size();
         Queue<Job> readyQueue = new LinkedList<>();
         int time = 0;
         double avgWaitTime = 0;
 
         while (!jobs.isEmpty()) {
-            final int finalTime = time;
-            jobs.stream().filter(job -> job.arrivalTime == finalTime).forEach(job -> {
-                readyQueue.add(job);
-                job.inQueue = true;
-            });
+
+            for(Job job: jobs) {
+                if(job.arrivalTime == time) {
+                    readyQueue.add(job);
+                    job.inQueue = true;
+                }
+            }
+
             if (!readyQueue.isEmpty()) {
                 Job currJob = readyQueue.remove();
                 currJob.inQueue = false;
@@ -36,5 +41,10 @@ public class RR {
             time++;
         }
         return Math.ceil(avgWaitTime / jobCount);
+    }
+
+    @Override
+    public String getName() {
+        return "RR";
     }
 }
