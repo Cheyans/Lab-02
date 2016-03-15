@@ -6,17 +6,21 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
+		//Get all files in the traces folder and add them to the path list
         List<Path> paths = new ArrayList<>();
         Files.walk(Paths.get(Main.class.getResource("Traces").toURI())).forEach(filePath -> {
             if (Files.isRegularFile(filePath)) {
                 paths.add(filePath);
             }
         });
-
+		
+		//Sort paths based on their numeric file names by comparing the 3 comparable integers in the filenames
         Collections.sort(paths, (path1, path2) -> {
+			//Extract integers from path name
             String[] path1Names = path1.getFileName().toString().split("-|\\.");
             String[] path2Names = path2.getFileName().toString().split("-|\\.");
             int comparison = 0;
+			//Compring the 3 integers
             for (int i = 0; i < path1Names.length; i++) {
                 comparison = Integer.compare(Integer.parseInt(path1Names[i]), Integer.parseInt(path2Names[i]));
                 if (comparison != 0) {
@@ -26,12 +30,13 @@ public class Main {
             //Should never happen, means the file has the same name or an improper naming scheme
             return comparison;
         });
-
+		//Run the appropriate schedulers
         runScheduler(paths, new FCFS());
         runScheduler(paths, new RR());
     }
 
     private static void runScheduler(List<Path> paths, Scheduler scheduler) throws IOException {
+		//Runs all jobs in all paths for provided scheduler
         for (Path path : paths) {
             List<Job> jobs = new LinkedList<>();
             Files.readAllLines(path).forEach(line -> {
@@ -57,6 +62,7 @@ class Job {
     }
 }
 
+//small interfacing to make the runScheduler method simple to write
 interface Scheduler {
     double run(List<Job> jobs);
     String getName();
@@ -68,10 +74,12 @@ class FCFS implements Scheduler{
     @Override
     public double run(List<Job> jobs){
         int jobCount = jobs.size();
+		//takes the list of jobs as a queue
         Queue<Job> q = (Queue<Job>) jobs;
         Job prev = null;
         double total = 0;
-
+		
+		//iterates of queue until everything is empty
         while(!q.isEmpty()){
             Job completed = q.remove();
             if(prev != null) {
