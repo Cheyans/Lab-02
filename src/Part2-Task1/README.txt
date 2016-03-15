@@ -1,0 +1,3 @@
+Our ProductConsumer file starts with a request struct that contains an id and length. We then have a queue that we created ourselves complete with enqueue and dequeue. 
+
+We first ask the user to insert values for consumer_ct, max_req_length, producer_max_sleep_duration. we then allocate the necessary size for the queue. We then create a new master thread that creates a new slave thread for each customer determined by the user. They wait to terminate until the master thread has terminated after all slave threads are created. 
