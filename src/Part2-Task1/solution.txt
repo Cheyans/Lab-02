@@ -1,0 +1,62 @@
+Producer: produced request ID 0, length 4 seconds at time 1458021642
+Producer: sleeping for 2 seconds
+Consumer 0: assigned request ID 0, processing request for the next 4 seconds, current time is 1458021642
+Producer: produced request ID 1, length 8 seconds at time 1458021644
+Producer: sleeping for 1 seconds
+Consumer 1: assigned request ID 1, processing request for the next 8 seconds, current time is 1458021644
+Producer: produced request ID 2, length 4 seconds at time 1458021645
+Producer: sleeping for 1 seconds
+Consumer 2: assigned request ID 2, processing request for the next 4 seconds, current time is 1458021645
+Consumer 0: completed request ID 0 at time 1458021646
+Producer: produced request ID 3, length 7 seconds at time 1458021646
+Producer: sleeping for 3 seconds
+Consumer 3: assigned request ID 3, processing request for the next 7 seconds, current time is 1458021646
+Producer: produced request ID 4, length 10 seconds at time 1458021649
+Producer: sleeping for 2 seconds
+Consumer 4: assigned request ID 4, processing request for the next 10 seconds, current time is 1458021649
+Consumer 2: completed request ID 2 at time 1458021649
+Producer: produced request ID 5, length 3 seconds at time 1458021651
+Producer: sleeping for 3 seconds
+Consumer 5: assigned request ID 5, processing request for the next 3 seconds, current time is 1458021651
+Consumer 1: completed request ID 1 at time 1458021652
+Consumer 3: completed request ID 3 at time 1458021653
+Producer: produced request ID 6, length 1 seconds at time 1458021654
+Producer: sleeping for 5 seconds
+Consumer 6: assigned request ID 6, processing request for the next 1 seconds, current time is 1458021654
+Consumer 5: completed request ID 5 at time 1458021654
+Consumer 6: completed request ID 6 at time 1458021655
+Consumer 4: completed request ID 4 at time 1458021659
+Producer: produced request ID 7, length 4 seconds at time 1458021659
+Producer: sleeping for 2 seconds
+Consumer 0: assigned request ID 7, processing request for the next 4 seconds, current time is 1458021659
+Producer: produced request ID 8, length 1 seconds at time 1458021661
+Producer: sleeping for 2 seconds
+Consumer 2: assigned request ID 8, processing request for the next 1 seconds, current time is 1458021661
+Consumer 2: completed request ID 8 at time 1458021662
+Consumer 0: completed request ID 7 at time 1458021663
+Producer: produced request ID 9, length 3 seconds at time 1458021663
+Producer: sleeping for 2 seconds
+Consumer 1: assigned request ID 9, processing request for the next 3 seconds, current time is 1458021663
+Producer: produced request ID 10, length 2 seconds at time 1458021665
+Producer: sleeping for 4 seconds
+Consumer 3: assigned request ID 10, processing request for the next 2 seconds, current time is 1458021665
+Consumer 1: completed request ID 9 at time 1458021666
+Consumer 3: completed request ID 10 at time 1458021667
+Producer: produced request ID 11, length 8 seconds at time 1458021669
+Producer: sleeping for 5 seconds
+Consumer 5: assigned request ID 11, processing request for the next 8 seconds, current time is 1458021669
+Producer: produced request ID 12, length 3 seconds at time 1458021674
+Producer: sleeping for 1 seconds
+Consumer 6: assigned request ID 12, processing request for the next 3 seconds, current time is 1458021674
+Producer: produced request ID 13, length 3 seconds at time 1458021675
+Producer: sleeping for 4 seconds
+Consumer 4: assigned request ID 13, processing request for the next 3 seconds, current time is 1458021675
+Consumer 5: completed request ID 11 at time 1458021677
+Consumer 6: completed request ID 12 at time 1458021677
+Consumer 4: completed request ID 13 at time 1458021678
+Producer: produced request ID 14, length 8 seconds at time 1458021679
+Producer: sleeping for 1 seconds
+Consumer 2: assigned request ID 14, processing request for the next 8 seconds, current time is 1458021679
+Producer: produced request ID 15, length 10 seconds at time 1458021680
+Producer: sleeping for 3 seconds
+Consumer 0: assigned request ID 15, processing request for the next 10 seconds, current time is 1458021680

@@ -1,0 +1,376 @@
+Producer: produced request ID 0, length 7 seconds at time 1458029473
+Consumer 1: assigned request ID 0, processing request for the next 7 seconds, current time is 1458029473
+Producer: sleeping for 0 seconds
+Producer: sleeping for 6 seconds
+Producer: produced request ID 1, length 6 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Consumer 9: assigned request ID 1, processing request for the next 6 seconds, current time is 1458029473
+Producer: sleeping for 5 seconds
+Producer: produced request ID 2, length 6 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Consumer 0: assigned request ID 2, processing request for the next 6 seconds, current time is 1458029473
+Producer: sleeping for 0 seconds
+Producer: produced request ID 3, length 2 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Consumer 8: assigned request ID 3, processing request for the next 2 seconds, current time is 1458029473
+Producer: sleeping for 1 seconds
+Producer: produced request ID 4, length 2 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Consumer 2: assigned request ID 4, processing request for the next 2 seconds, current time is 1458029473
+Producer: sleeping for 1 seconds
+Producer: produced request ID 5, length 3 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Consumer 7: assigned request ID 5, processing request for the next 3 seconds, current time is 1458029473
+Producer: sleeping for 1 seconds
+Producer: produced request ID 6, length 4 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Consumer 3: assigned request ID 6, processing request for the next 4 seconds, current time is 1458029473
+Producer: sleeping for 3 seconds
+Producer: produced request ID 7, length 3 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Consumer 6: assigned request ID 7, processing request for the next 3 seconds, current time is 1458029473
+Producer: sleeping for 1 seconds
+Producer: produced request ID 8, length 6 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Consumer 4: assigned request ID 8, processing request for the next 6 seconds, current time is 1458029473
+Producer: sleeping for 5 seconds
+Producer: produced request ID 9, length 7 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Consumer 5: assigned request ID 9, processing request for the next 7 seconds, current time is 1458029473
+Producer: sleeping for 5 seconds
+Producer: produced request ID 10, length 3 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Producer: produced request ID 11, length 4 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Producer: produced request ID 12, length 5 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Producer: produced request ID 13, length 1 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Producer: produced request ID 14, length 4 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Producer: produced request ID 15, length 2 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Producer: produced request ID 16, length 6 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Producer: produced request ID 17, length 4 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Producer: produced request ID 18, length 3 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Producer: produced request ID 19, length 6 seconds at time 1458029473
+Producer: sleeping for 0 seconds
+Consumer 0: assigned request ID 10, processing request for the next 3 seconds, current time is 1458029474
+Producer: produced request ID 20, length 7 seconds at time 1458029474
+Producer: sleeping for 0 seconds
+Producer: sleeping for 1 seconds
+Consumer 7: assigned request ID 11, processing request for the next 4 seconds, current time is 1458029474
+Producer: sleeping for 1 seconds
+Producer: produced request ID 21, length 1 seconds at time 1458029474
+Producer: sleeping for 0 seconds
+Consumer 8: assigned request ID 12, processing request for the next 5 seconds, current time is 1458029474
+Producer: sleeping for 1 seconds
+Producer: produced request ID 22, length 7 seconds at time 1458029474
+Producer: sleeping for 0 seconds
+Consumer 2: assigned request ID 13, processing request for the next 1 seconds, current time is 1458029474
+Producer: produced request ID 23, length 4 seconds at time 1458029474
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 6: assigned request ID 14, processing request for the next 4 seconds, current time is 1458029475
+Producer: produced request ID 24, length 6 seconds at time 1458029475
+Producer: sleeping for 0 seconds
+Producer: sleeping for 2 seconds
+Consumer 2: assigned request ID 15, processing request for the next 2 seconds, current time is 1458029475
+Producer: produced request ID 25, length 4 seconds at time 1458029475
+Producer: sleeping for 0 seconds
+Producer: sleeping for 1 seconds
+Consumer 0: assigned request ID 16, processing request for the next 6 seconds, current time is 1458029475
+Producer: sleeping for 4 seconds
+Producer: produced request ID 26, length 5 seconds at time 1458029475
+Producer: sleeping for 0 seconds
+Consumer 8: assigned request ID 17, processing request for the next 4 seconds, current time is 1458029476
+Producer: produced request ID 27, length 4 seconds at time 1458029476
+Producer: sleeping for 0 seconds
+Producer: sleeping for 1 seconds
+Consumer 2: assigned request ID 18, processing request for the next 3 seconds, current time is 1458029476
+Producer: sleeping for 0 seconds
+Producer: produced request ID 28, length 1 seconds at time 1458029476
+Producer: sleeping for 0 seconds
+Consumer 7: assigned request ID 19, processing request for the next 6 seconds, current time is 1458029476
+Producer: produced request ID 29, length 7 seconds at time 1458029476
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 7: assigned request ID 20, processing request for the next 7 seconds, current time is 1458029476
+Producer: sleeping for 5 seconds
+Producer: produced request ID 30, length 7 seconds at time 1458029476
+Producer: sleeping for 0 seconds
+Consumer 3: assigned request ID 21, processing request for the next 1 seconds, current time is 1458029476
+Producer: sleeping for 0 seconds
+Producer: produced request ID 31, length 5 seconds at time 1458029476
+Producer: sleeping for 0 seconds
+Consumer 3: assigned request ID 22, processing request for the next 7 seconds, current time is 1458029477
+Producer: produced request ID 32, length 5 seconds at time 1458029477
+Producer: sleeping for 0 seconds
+Producer: sleeping for 3 seconds
+Consumer 2: assigned request ID 23, processing request for the next 4 seconds, current time is 1458029477
+Producer: produced request ID 33, length 5 seconds at time 1458029477
+Producer: sleeping for 0 seconds
+Producer: sleeping for 3 seconds
+Consumer 6: assigned request ID 24, processing request for the next 6 seconds, current time is 1458029477
+Producer: sleeping for 4 seconds
+Producer: produced request ID 34, length 3 seconds at time 1458029477
+Producer: sleeping for 0 seconds
+Producer: produced request ID 35, length 5 seconds at time 1458029477
+Producer: sleeping for 0 seconds
+Consumer 8: assigned request ID 25, processing request for the next 4 seconds, current time is 1458029477
+Producer: sleeping for 0 seconds
+Consumer 8: assigned request ID 26, processing request for the next 5 seconds, current time is 1458029478
+Producer: produced request ID 36, length 4 seconds at time 1458029478
+Producer: sleeping for 2 seconds
+Producer: sleeping for 0 seconds
+Consumer 9: assigned request ID 27, processing request for the next 4 seconds, current time is 1458029478
+Producer: produced request ID 37, length 5 seconds at time 1458029478
+Producer: sleeping for 0 seconds
+Producer: sleeping for 2 seconds
+Consumer 4: assigned request ID 28, processing request for the next 1 seconds, current time is 1458029478
+Producer: produced request ID 38, length 4 seconds at time 1458029478
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 4: assigned request ID 29, processing request for the next 7 seconds, current time is 1458029479
+Producer: produced request ID 39, length 3 seconds at time 1458029479
+Producer: sleeping for 0 seconds
+Producer: sleeping for 1 seconds
+Consumer 5: assigned request ID 30, processing request for the next 7 seconds, current time is 1458029479
+Producer: sleeping for 6 seconds
+Producer: produced request ID 40, length 1 seconds at time 1458029479
+Producer: sleeping for 0 seconds
+Consumer 0: assigned request ID 31, processing request for the next 5 seconds, current time is 1458029479
+Producer: produced request ID 41, length 2 seconds at time 1458029479
+Producer: sleeping for 0 seconds
+Producer: sleeping for 2 seconds
+Consumer 1: assigned request ID 32, processing request for the next 5 seconds, current time is 1458029480
+Producer: produced request ID 42, length 2 seconds at time 1458029480
+Producer: sleeping for 0 seconds
+Producer: sleeping for 1 seconds
+Consumer 3: assigned request ID 33, processing request for the next 5 seconds, current time is 1458029480
+Producer: sleeping for 3 seconds
+Producer: produced request ID 43, length 6 seconds at time 1458029480
+Producer: sleeping for 0 seconds
+Consumer 4: assigned request ID 34, processing request for the next 3 seconds, current time is 1458029480
+Producer: produced request ID 44, length 6 seconds at time 1458029480
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 2: assigned request ID 35, processing request for the next 5 seconds, current time is 1458029480
+Producer: sleeping for 3 seconds
+Producer: produced request ID 45, length 5 seconds at time 1458029480
+Producer: sleeping for 0 seconds
+Consumer 4: assigned request ID 36, processing request for the next 4 seconds, current time is 1458029480
+Producer: sleeping for 0 seconds
+Producer: produced request ID 46, length 3 seconds at time 1458029480
+Producer: sleeping for 0 seconds
+Consumer 8: assigned request ID 37, processing request for the next 5 seconds, current time is 1458029480
+Producer: sleeping for 2 seconds
+Producer: produced request ID 47, length 4 seconds at time 1458029480
+Producer: sleeping for 0 seconds
+Consumer 6: assigned request ID 38, processing request for the next 4 seconds, current time is 1458029481
+Producer: produced request ID 48, length 4 seconds at time 1458029481
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 9: assigned request ID 39, processing request for the next 3 seconds, current time is 1458029481
+Producer: produced request ID 49, length 1 seconds at time 1458029481
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 4: assigned request ID 40, processing request for the next 1 seconds, current time is 1458029481
+Producer: produced request ID 50, length 5 seconds at time 1458029481
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 1: assigned request ID 41, processing request for the next 2 seconds, current time is 1458029481
+Producer: produced request ID 51, length 4 seconds at time 1458029481
+Producer: sleeping for 0 seconds
+Producer: sleeping for 1 seconds
+Consumer 4: assigned request ID 42, processing request for the next 2 seconds, current time is 1458029481
+Producer: sleeping for 1 seconds
+Producer: produced request ID 52, length 2 seconds at time 1458029481
+Producer: sleeping for 0 seconds
+Consumer 6: assigned request ID 43, processing request for the next 6 seconds, current time is 1458029482
+Producer: produced request ID 53, length 7 seconds at time 1458029482
+Producer: sleeping for 0 seconds
+Producer: sleeping for 1 seconds
+Consumer 9: assigned request ID 44, processing request for the next 6 seconds, current time is 1458029482
+Producer: sleeping for 5 seconds
+Producer: produced request ID 54, length 4 seconds at time 1458029482
+Producer: sleeping for 0 seconds
+Producer: produced request ID 55, length 6 seconds at time 1458029482
+Producer: sleeping for 0 seconds
+Consumer 0: assigned request ID 45, processing request for the next 5 seconds, current time is 1458029482
+Producer: sleeping for 2 seconds
+Consumer 7: assigned request ID 46, processing request for the next 3 seconds, current time is 1458029482
+Producer: produced request ID 56, length 7 seconds at time 1458029482
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 7: assigned request ID 47, processing request for the next 4 seconds, current time is 1458029482
+Producer: sleeping for 3 seconds
+Producer: produced request ID 57, length 6 seconds at time 1458029482
+Producer: sleeping for 0 seconds
+Consumer 8: assigned request ID 48, processing request for the next 4 seconds, current time is 1458029483
+Producer: produced request ID 58, length 4 seconds at time 1458029483
+Producer: sleeping for 0 seconds
+Producer: sleeping for 1 seconds
+Consumer 6: assigned request ID 49, processing request for the next 1 seconds, current time is 1458029483
+Producer: produced request ID 59, length 4 seconds at time 1458029483
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 4: assigned request ID 50, processing request for the next 5 seconds, current time is 1458029483
+Producer: produced request ID 60, length 7 seconds at time 1458029483
+Producer: sleeping for 0 seconds
+Producer: sleeping for 4 seconds
+Consumer 6: assigned request ID 51, processing request for the next 4 seconds, current time is 1458029483
+Producer: produced request ID 61, length 7 seconds at time 1458029483
+Producer: sleeping for 0 seconds
+Producer: sleeping for 1 seconds
+Consumer 1: assigned request ID 52, processing request for the next 2 seconds, current time is 1458029483
+Producer: sleeping for 0 seconds
+Producer: produced request ID 62, length 7 seconds at time 1458029483
+Producer: sleeping for 0 seconds
+Consumer 3: assigned request ID 53, processing request for the next 7 seconds, current time is 1458029484
+Producer: produced request ID 63, length 6 seconds at time 1458029484
+Producer: sleeping for 0 seconds
+Producer: sleeping for 1 seconds
+Consumer 2: assigned request ID 54, processing request for the next 4 seconds, current time is 1458029484
+Producer: sleeping for 1 seconds
+Producer: produced request ID 64, length 5 seconds at time 1458029484
+Producer: sleeping for 0 seconds
+Consumer 1: assigned request ID 55, processing request for the next 6 seconds, current time is 1458029484
+Producer: produced request ID 65, length 7 seconds at time 1458029484
+Producer: sleeping for 0 seconds
+Producer: sleeping for 5 seconds
+Consumer 8: assigned request ID 56, processing request for the next 7 seconds, current time is 1458029484
+Producer: sleeping for 2 seconds
+Producer: produced request ID 66, length 5 seconds at time 1458029484
+Producer: sleeping for 0 seconds
+Consumer 0: assigned request ID 57, processing request for the next 6 seconds, current time is 1458029485
+Producer: produced request ID 67, length 2 seconds at time 1458029485
+Producer: sleeping for 0 seconds
+Producer: sleeping for 5 seconds
+Consumer 5: assigned request ID 58, processing request for the next 4 seconds, current time is 1458029485
+Producer: sleeping for 1 seconds
+Producer: produced request ID 68, length 3 seconds at time 1458029485
+Producer: sleeping for 0 seconds
+Producer: produced request ID 69, length 6 seconds at time 1458029485
+Producer: sleeping for 0 seconds
+Consumer 2: assigned request ID 59, processing request for the next 4 seconds, current time is 1458029485
+Producer: sleeping for 0 seconds
+Consumer 3: assigned request ID 60, processing request for the next 7 seconds, current time is 1458029485
+Producer: produced request ID 70, length 5 seconds at time 1458029485
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 6: assigned request ID 61, processing request for the next 7 seconds, current time is 1458029485
+Producer: produced request ID 71, length 2 seconds at time 1458029485
+Producer: sleeping for 0 seconds
+Producer: sleeping for 5 seconds
+Consumer 2: assigned request ID 62, processing request for the next 7 seconds, current time is 1458029485
+Producer: sleeping for 3 seconds
+Producer: produced request ID 72, length 2 seconds at time 1458029485
+Producer: sleeping for 0 seconds
+Consumer 3: assigned request ID 63, processing request for the next 6 seconds, current time is 1458029485
+Producer: produced request ID 73, length 2 seconds at time 1458029485
+Producer: sleeping for 0 seconds
+Producer: sleeping for 4 seconds
+Consumer 7: assigned request ID 64, processing request for the next 5 seconds, current time is 1458029486
+Producer: sleeping for 3 seconds
+Producer: produced request ID 74, length 2 seconds at time 1458029486
+Producer: sleeping for 0 seconds
+Consumer 5: assigned request ID 65, processing request for the next 7 seconds, current time is 1458029487
+Producer: produced request ID 75, length 7 seconds at time 1458029487
+Producer: sleeping for 0 seconds
+Producer: sleeping for 6 seconds
+Consumer 8: assigned request ID 66, processing request for the next 5 seconds, current time is 1458029487
+Producer: sleeping for 1 seconds
+Producer: produced request ID 76, length 2 seconds at time 1458029487
+Producer: sleeping for 0 seconds
+Consumer 9: assigned request ID 67, processing request for the next 2 seconds, current time is 1458029488
+Producer: produced request ID 77, length 2 seconds at time 1458029488
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 4: assigned request ID 68, processing request for the next 3 seconds, current time is 1458029488
+Producer: produced request ID 78, length 4 seconds at time 1458029488
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 9: assigned request ID 69, processing request for the next 6 seconds, current time is 1458029488
+Producer: sleeping for 4 seconds
+Producer: produced request ID 79, length 7 seconds at time 1458029488
+Producer: sleeping for 0 seconds
+Consumer 8: assigned request ID 70, processing request for the next 5 seconds, current time is 1458029488
+Producer: produced request ID 80, length 5 seconds at time 1458029488
+Producer: sleeping for 0 seconds
+Producer: sleeping for 2 seconds
+Consumer 4: assigned request ID 71, processing request for the next 2 seconds, current time is 1458029488
+Producer: sleeping for 0 seconds
+Producer: produced request ID 81, length 2 seconds at time 1458029488
+Producer: sleeping for 0 seconds
+Consumer 2: assigned request ID 72, processing request for the next 2 seconds, current time is 1458029489
+Producer: sleeping for 0 seconds
+Producer: produced request ID 82, length 2 seconds at time 1458029489
+Producer: sleeping for 0 seconds
+Consumer 4: assigned request ID 73, processing request for the next 2 seconds, current time is 1458029489
+Producer: produced request ID 83, length 3 seconds at time 1458029489
+Producer: sleeping for 0 seconds
+Producer: sleeping for 1 seconds
+Consumer 7: assigned request ID 74, processing request for the next 2 seconds, current time is 1458029489
+Producer: sleeping for 1 seconds
+Producer: produced request ID 84, length 7 seconds at time 1458029489
+Producer: sleeping for 0 seconds
+Consumer 2: assigned request ID 75, processing request for the next 7 seconds, current time is 1458029489
+Producer: sleeping for 3 seconds
+Producer: produced request ID 85, length 4 seconds at time 1458029489
+Producer: sleeping for 0 seconds
+Consumer 1: assigned request ID 76, processing request for the next 2 seconds, current time is 1458029490
+Producer: sleeping for 0 seconds
+Producer: produced request ID 86, length 4 seconds at time 1458029490
+Producer: sleeping for 0 seconds
+Consumer 3: assigned request ID 77, processing request for the next 2 seconds, current time is 1458029490
+Producer: produced request ID 87, length 6 seconds at time 1458029490
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 4: assigned request ID 78, processing request for the next 4 seconds, current time is 1458029490
+Producer: produced request ID 88, length 1 seconds at time 1458029490
+Producer: sleeping for 0 seconds
+Producer: sleeping for 0 seconds
+Consumer 1: assigned request ID 79, processing request for the next 7 seconds, current time is 1458029490
+Producer: produced request ID 89, length 2 seconds at time 1458029490
+Producer: sleeping for 0 seconds
+Producer: sleeping for 1 seconds
+Consumer 4: assigned request ID 80, processing request for the next 5 seconds, current time is 1458029491
+Producer: sleeping for 0 seconds
+Producer: produced request ID 90, length 6 seconds at time 1458029491
+Producer: sleeping for 0 seconds
+Consumer 6: assigned request ID 81, processing request for the next 2 seconds, current time is 1458029491
+Producer: sleeping for 1 seconds
+Producer: produced request ID 91, length 2 seconds at time 1458029491
+Producer: sleeping for 0 seconds
+Consumer 0: assigned request ID 82, processing request for the next 2 seconds, current time is 1458029491
+Producer: sleeping for 0 seconds
+Producer: produced request ID 92, length 1 seconds at time 1458029491
+Producer: sleeping for 0 seconds
+Consumer 3: assigned request ID 83, processing request for the next 3 seconds, current time is 1458029491
+Producer: produced request ID 93, length 1 seconds at time 1458029491
+Producer: sleeping for 0 seconds
+Producer: sleeping for 2 seconds
+Consumer 7: assigned request ID 84, processing request for the next 7 seconds, current time is 1458029491
+Producer: produced request ID 94, length 3 seconds at time 1458029491
+Producer: sleeping for 0 seconds
+Producer: sleeping for 5 seconds
+Consumer 8: assigned request ID 85, processing request for the next 4 seconds, current time is 1458029491
+Producer: sleeping for 1 seconds
+Producer: produced request ID 95, length 5 seconds at time 1458029491
+Producer: sleeping for 0 seconds
+Consumer 4: assigned request ID 86, processing request for the next 4 seconds, current time is 1458029491
+Producer: sleeping for 1 seconds
+Producer: produced request ID 96, length 6 seconds at time 1458029491
+Producer: sleeping for 0 seconds
+Consumer 0: assigned request ID 87, processing request for the next 6 seconds, current time is 1458029492
+Producer: sleeping for 3 seconds
+Producer: produced request ID 97, length 6 seconds at time 1458029492
+Producer: sleeping for 0 seconds
+Consumer 6: assigned request ID 88, processing request for the next 1 seconds, current time is 1458029492
+Producer: sleeping for 0 seconds
+Producer: produced request ID 98, length 3 seconds at time 1458029492
+Producer: sleeping for 0 seconds
